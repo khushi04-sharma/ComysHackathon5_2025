@@ -19,7 +19,22 @@ dataset/
 Train a model to predict gender from faces that generalizes well to non-ideal images—low light, motion blur, or weather effects (binary Classifier).
 ---
 
-# COMSYS-Hackathon-5-2025
+### Robust Deep Learning Architecture
+- VGG19 Fine-Tuning: Utilizes transfer learning from ImageNet-pre-trained VGG19 model<br>
+- Advanced Loss Function: Implements focal loss to handle class imbalance (γ=2, α=0.75)<br>
+- Dynamic Thresholding: Automatically optimizes decision thresholds for maximum F1 score<br>
+
+### Enhanced Training Methodology
+-Comprehensive Data Augmentation:<br>
+-Lighting variations (brightness/contrast adjustments)<br>
+-Geometric transformations (rotations, flips)<br>
+-Noise injection (Gaussian, speckle)<br>
+-Class Balancing: Implements weighted sampling to ensure equal representation<br>
+
+### Model Interpretability
+- Grad-CAM Integration: Visualizes facial regions driving predictions<br>
+- Confidence Metrics: Provides probability estimates for each prediction<br>
+- Performance Visualization: Generates ROC curves and confusion matrices content will be this one<br>
 ###  Task B: Face Verification
 - **Objective:** 
     Build a **face verification system** that reliably matches distorted face images to their correct identities using metric learning, without relying on traditional classification approaches.
