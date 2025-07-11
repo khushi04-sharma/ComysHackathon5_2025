@@ -92,8 +92,27 @@ python testB.py
 ### Output:
 
 **On Run test_A.py**
+## Testing Results on Val dataset
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://github.com/khushi04-sharma/ComysHackathon5_2025/raw/076ed63835873fcc434a2714824288438081ff53/Screenshot%202025-07-11%20143915.png" width="400" alt="Training Metrics">
+        <br>
+        <em>Training Progress Metrics</em>
+      </td>
+      <td align="center">
+        <img src="https://github.com/khushi04-sharma/ComysHackathon5_2025/raw/076ed63835873fcc434a2714824288438081ff53/Screenshot%202025-07-11%20143953.png" width="400" alt="Validation Results">
+        <br>
+        <em>Validation Performance</em>
+      </td>
+    </tr>
+  </table>
+</div>
 
 **On Run test_B.py**
+[Testing Results on Val dataset]
 ---  
 
 ##  Challenge Overview 
