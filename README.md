@@ -18,146 +18,6 @@ dataset/
 - **Model Goal:** 
 Train a model to predict gender from faces that generalizes well to non-ideal images—low light, motion blur, or weather effects (binary Classifier).
 ---
-## 1. Setup Environment (via PyCharm )
-
-The easiest way to run the models is by using 3.10 virtual environment (tf-gpu-env). This ensures seamless compatibility with TensorFlow-GPU and other dependencies — with zero manual installations
-
-> 🧠 Tested on:  <br>
-   ✅ Windows 11 + PyCharm + WSL <br>
-   ✅ Ubuntu 22.04 (x86_64, AMD CPU, with NVIDIA GPU) <br>
-   ✅ macOS (M1/M2 not recommended unless using CPU-only) <br>
-   
-   ⏳ Time to setup: ~30 minutes (with 22 Mbps internet)
-  - **WSL2 backend enabled** (for Windows)
-  - **GPU support enabled** (if using TensorFlow-GPU)
-- Internet connection ≥ **22 Mbps** (see time note below)
-- GPU drivers installed:
-  - NVIDIA Driver (≥ R515+)
-  - NVIDIA Container Toolkit (for GPU access inside Docker)
-
-
-### ⚡ Setup Steps
-
-### Clone the repo
-```bash
-git clone https://github.com/khushi04-sharma/ComysHackathon5_2025.git
-```
-### 🖥️ If you're on Windows with WSL2:
-```bash
-wsl bash install.sh
-```
-### 🐧 If you're on native Linux/macOS:
-```bash
-bash install.sh
-```
-### ✅ Activate the virtual environment
-```bash
-source tf-gpu-env/bin/activate
-```
-### ▶️ Run the test scripts
-```bash
-python testA.py   # Gender Classification
-python testB.py   # Face Verification
-```
----
-
-
-## 2. Download Pretrained Models
-- **Task A (Gender Classification):**  
-    Download `TASK_A.h5` from [releases:(https://github.com/khushi04-sharma/ComysHackathon5_2025.git/models/TASK_A)] 
-
-- **Task B (Face Verification):**  
-    Download `TASK_B.h5` from [releases:(https://github.com/khushi04-sharma/ComysHackathon5_2025.git/models/TASK_B) 
-
----
-
-## 3. Prepare Data
-
-- **Task A:**  
-    - Place validation/test images in:
-        - `Comys_Hackathon5\Task_A\val\male\`
-        - `Comys_Hackathon5\Task_A\val\female\`
-
-- **Task B:**  
-    - Place validation/test folders in:
-        - `Comys_Hackathon5\Task_B\val\`
-    - Each identity folder should contain one or many reference image and a `distortion/` subfolder with distorted images.
-
----
-
-## 4. Run the Scripts
-
-### Task A: Gender Classification
-
-```bash
-python TEST_A.py
-```
-
-- Evaluates all images in the male and female folders.
-- Prints a classification report : precision, recall, F1-score
-- Optionally, set `SHOW_GRADCAM = True` in `TEST_A.py` to visualize Grad-CAM overlays (requires GPU).
-
-### Task B: Face Verification
-
-```bash
-python TEST_B.py
-```
-
-- Evaluates face matching for all identities and their distorted images.
-- Prints match results and overall accuracy.
-
----
-
-#### 🧠VGG19 Fine-Tuning
-- Leverages ImageNet-pre-trained VGG19 backbone
-- Custom classification head optimized for gender prediction
-- Layer-wise learning rate adaptation
-#### 🎯 Dynamic Threshold Optimization
-- Auto-tunes decision threshold to maximize F1 score
-- Validation-set driven optimization
-- Threshold range: 0.3-0.7 with 0.01 increments
-#### ⚖️ Class Balancing
-- WeightedRandomSampler with inverse class frequency
-- Batch-level normalization
-- Oversampling for minority class (female)
- 
-#### Face Recognition Pipeline Using Transfer Learning (VGG19)
-This diagram outlines the workflow for a face recognition system using transfer learning. It includes stages such as data preparation, preprocessing with augmentation, training with VGG19, hyperparameter tuning, deployment, and model evaluation.
-<div align="center">
-  <img src="https://github.com/khushi04-sharma/ComysHackathon5_2025/blob/47b08c2e8b7c01251166ee28796f7ccd497be519/Image/tranfer_learning.png" alt="Distance Formula" width="600" style="max-width:100%; height:auto;"/>
-</div>
-</div>
-#### Architecture of the VGG19 Convolutional Neural Network
-This image illustrates the detailed architecture of the VGG19 model, including the sequence of convolutional layers, max-pooling operations, fully connected layers (FC1, FC2), and the final softmax classification layer.
-<div align="center">
-  <img src="https://github.com/khushi04-sharma/ComysHackathon5_2025/blob/47b08c2e8b7c01251166ee28796f7ccd497be519/Image/Screenshot%202025-07-11%20134525.png" alt="Distance Formula" width="400" style="max-width:50%; height:auto;"/>
-</div>
-
-### 🏆📈  Performance Metrics
-| Metric                   | Value  |
-|--------------------------|--------|
-| Test Accuracy            | ~96.85%   |
-| precision                | 0.9712 |
-| Recall                   | 0.9684 |
-| F1-Score                 |0.9684  |
-
-#### Excepted Output
-📁 Found 100 male and 100 female images.(balanced dataset)
-
-📊 Classification Report:
-                     precision    recall  f1-score   support
-
-            Male     0.9700    0.9800    0.9750       100
-          Female     0.9800    0.9700    0.9750       100
-
-        accuracy                         0.9750       200
-       macro avg     0.9750    0.9750    0.9750       200
-    weighted avg     0.9750    0.9750    0.9750       200
-
- ✅ Our trained model with a VGG19 backbone achieved an impressive ~96.85% classification accuracy on the validation/test set for gender classification.
-
- > 📌 Note: This high accuracy demonstrates the effectiveness  in gender classification tasks, especially when combined with  high-quality and inbalanced datasets.
-
 ###  Task B: Face Verification
 - **Objective:** 
     Build a **face verification system** that reliably matches distorted face images to their correct identities using metric learning, without relying on traditional classification approaches.
@@ -187,6 +47,59 @@ Directory Structure
 
 ```
 
+## 🧠 Model Description:  Gender Classification Using Transfer Learning (VGG19)
+This diagram outlines the workflow for a face recognition system using transfer learning. It includes stages such as data preparation, preprocessing with augmentation, training with VGG19, hyperparameter tuning, deployment, and model evaluation.
+<div align="center">
+  <img src="https://github.com/khushi04-sharma/ComysHackathon5_2025/blob/47b08c2e8b7c01251166ee28796f7ccd497be519/Image/tranfer_learning.png" alt="Distance Formula" width="600" style="max-width:100%; height:auto;"/>
+</div>
+
+#### Architecture of the VGG19 Convolutional Neural Network
+This image illustrates the detailed architecture of the VGG19 model, including the sequence of convolutional layers, max-pooling operations, fully connected layers (FC1, FC2), and the final softmax classification layer.
+<div align="center">
+  <img src="https://github.com/khushi04-sharma/ComysHackathon5_2025/blob/47b08c2e8b7c01251166ee28796f7ccd497be519/Image/Screenshot%202025-07-11%20134525.png" alt="Distance Formula" width="400" style="max-width:50%; height:auto;"/>
+</div>
+#### 🧠VGG19 Fine-Tuning
+- Leverages ImageNet-pre-trained VGG19 backbone
+- Custom classification head optimized for gender prediction
+- Layer-wise learning rate adaptation
+#### 🎯 Dynamic Threshold Optimization
+- Auto-tunes decision threshold to maximize F1 score
+- Validation-set driven optimization
+- Threshold range: 0.3-0.7 with 0.01 increments
+#### ⚖️ Class Balancing
+- WeightedRandomSampler with inverse class frequency
+- Batch-level normalization
+- Oversampling for minority class (female)
+ 
+
+
+### 🏆📈  Performance Metrics
+| Metric                   | Value  |
+|--------------------------|--------|
+| Test Accuracy            | ~96.85%   |
+| precision                | 0.9712 |
+| Recall                   | 0.9684 |
+| F1-Score                 |0.9684  |
+
+#### Excepted Output
+📁 Found 100 male and 100 female images.(balanced dataset)
+
+📊 Classification Report:
+                     precision    recall  f1-score   support
+
+            Male     0.9700    0.9800    0.9750       100
+          Female     0.9800    0.9700    0.9750       100
+
+        accuracy                         0.9750       200
+       macro avg     0.9750    0.9750    0.9750       200
+    weighted avg     0.9750    0.9750    0.9750       200
+
+ ✅ Our trained model with a VGG19 backbone achieved an impressive ~96.85% classification accuracy on the validation/test set for gender classification.
+
+ > 📌 Note: This high accuracy demonstrates the effectiveness  in gender classification tasks, especially when combined with  high-quality and inbalanced datasets.
+
+
+
 ## 🧠 Model Description: Triplet Network with a ResNet50 backbone for Face Verification
 
 This Triplet Network leverages a ResNet50 backbone to learn discriminative embeddings through metric learning. The core objective is to minimize intra-class distances (pulling similar samples closer in the embedding space) while maximizing inter-class distances (pushing dissimilar samples apart). The model employs triplet loss, which trains on groups of three items(positive,negative,anchor).The optimization ensures that the anchor is always closer to the positive than to the negative by a defined margin :<div align="center">
@@ -206,7 +119,7 @@ This Triplet Network leverages a ResNet50 backbone to learn discriminative embed
 The standard triplet loss with a margin α:
 
 <div align="center">
-  <img src="formula.png" alt="Distance Formula" width="800" style="max-width:100%; height:auto;"/>
+  <img src="https://github.com/khushi04-sharma/ComysHackathon5_2025/blob/47b08c2e8b7c01251166ee28796f7ccd497be519/Image/formula.png" alt="Distance Formula" width="800" style="max-width:100%; height:auto;"/>
 </div>
 
 **Anchor (xa):** The reference image (red).
@@ -322,7 +235,94 @@ Such training ensures that the model can effectively distinguish between similar
 > 📌 Note: This high accuracy underscores the effectiveness of Triplet Networks in face verification tasks, especially when using embedding-based similarity with well-curated datasets.
 
 ---
+## 1. Setup Environment (via PyCharm )
 
+The easiest way to run the models is by using 3.10 virtual environment (tf-gpu-env). This ensures seamless compatibility with TensorFlow-GPU and other dependencies — with zero manual installations
+
+> 🧠 Tested on:  <br>
+   ✅ Windows 11 + PyCharm + WSL <br>
+   ✅ Ubuntu 22.04 (x86_64, AMD CPU, with NVIDIA GPU) <br>
+   ✅ macOS (M1/M2 not recommended unless using CPU-only) <br>
+   
+   ⏳ Time to setup: ~30 minutes (with 22 Mbps internet)
+  - **WSL2 backend enabled** (for Windows)
+  - **GPU support enabled** (if using TensorFlow-GPU)
+- Internet connection ≥ **22 Mbps** (see time note below)
+- GPU drivers installed:
+  - NVIDIA Driver (≥ R515+)
+  - NVIDIA Container Toolkit (for GPU access inside Docker)
+
+
+### ⚡ Setup Steps
+
+### Clone the repo
+```bash
+git clone https://github.com/khushi04-sharma/ComysHackathon5_2025.git
+```
+### 🖥️ If you're on Windows with WSL2:
+```bash
+wsl bash install.sh
+```
+### 🐧 If you're on native Linux/macOS:
+```bash
+bash install.sh
+```
+### ✅ Activate the virtual environment
+```bash
+source tf-gpu-env/bin/activate
+```
+### ▶️ Run the test scripts
+```bash
+python testA.py   # Gender Classification
+python testB.py   # Face Verification
+```
+---
+
+
+## 2. Download Pretrained Models
+- **Task A (Gender Classification):**  
+    Download `TASK_A.h5` from [releases:](https://github.com/khushi04-sharma/ComysHackathon5_2025.git/models/TASK_A)] 
+
+- **Task B (Face Verification):**  
+    Download `TASK_B.h5` from [releases:](https://github.com/khushi04-sharma/ComysHackathon5_2025.git/models/TASK_B) 
+
+---
+
+## 3. Prepare Data
+
+- **Task A:**  
+    - Place validation/test images in:
+        - `Comys_Hackathon5\Task_A\val\male\`
+        - `Comys_Hackathon5\Task_A\val\female\`
+
+- **Task B:**  
+    - Place validation/test folders in:
+        - `Comys_Hackathon5\Task_B\val\`
+    - Each identity folder should contain one or many reference image and a `distortion/` subfolder with distorted images.
+
+---
+
+## 4. Run the Scripts
+
+### Task A: Gender Classification
+
+```bash
+python TEST_A.py
+```
+
+- Evaluates all images in the male and female folders.
+- Prints a classification report : precision, recall, F1-score
+- Optionally, set `SHOW_GRADCAM = True` in `TEST_A.py` to visualize Grad-CAM overlays (requires GPU).
+### Task B: Face Verification
+
+```bash
+python TEST_B.py
+```
+
+- Evaluates face matching for all identities and their distorted images.
+- Prints match results and overall accuracy.
+
+---  
 ## 🤝 Acknowledgements
 
 Developed by [AI-dentifiers](https://github.com/khushi04-sharma/Comys_Hackathon5_2025_Task_B) and contributor.  
