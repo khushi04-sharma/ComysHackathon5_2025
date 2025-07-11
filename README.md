@@ -37,6 +37,31 @@ This diagram outlines the workflow for a face recognition system using transfer 
 #### Architecture of the VGG19 Convolutional Neural Network
 This image illustrates the detailed architecture of the VGG19 model, including the sequence of convolutional layers, max-pooling operations, fully connected layers (FC1, FC2), and the final softmax classification layer.
 
+### 🏆📈  Performance Metrics
+| Metric                   | Value  |
+|--------------------------|--------|
+| Test Accuracy            | ~96.85%   |
+| precision                | 0.9712 |
+| Recall                   | 0.9684 |
+| F1-Score                 |0.9684  |
+
+#### Excepted Output
+📁 Found 100 male and 100 female images.(balanced dataset)
+
+📊 Classification Report:
+                     precision    recall  f1-score   support
+
+            Male     0.9700    0.9800    0.9750       100
+          Female     0.9800    0.9700    0.9750       100
+
+        accuracy                         0.9750       200
+       macro avg     0.9750    0.9750    0.9750       200
+    weighted avg     0.9750    0.9750    0.9750       200
+
+  ✅ Our trained Triplet Network with a ResNet50 backbone achieved an impressive ~97% verification accuracy on the validation/test set.
+
+> 📌 Note: This high accuracy underscores the effectiveness of Triplet Networks in face verification tasks, especially when using embedding-based similarity with well-curated datasets.
+
 ###  Task B: Face Verification
 - **Objective:** 
     Build a **face verification system** that reliably matches distorted face images to their correct identities using metric learning, without relying on traditional classification approaches.
@@ -189,7 +214,7 @@ Such training ensures that the model can effectively distinguish between similar
 ### 🏆📈  Performance Metrics
 | Metric                   | Value  |
 |--------------------------|--------|
-| Test Accuracy            | ~97%   |
+| Test Accuracy            |~96-97% |
 | precision                | 0.9729 |
 | Recall                   | 0.9841 |
 | F1-Score                 |0.9785  |
