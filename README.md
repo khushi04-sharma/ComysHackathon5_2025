@@ -34,11 +34,28 @@ wsl bash install.sh
 ```bash
 bash install.sh
 ```
-### ✅ Activate the virtual environment
+### ✅ Try to Activate Existing Virtual Environment
 ```bash
 source tf-gpu-env/bin/activate
 ```
-### ▶️ Run the test scripts
+⚠️ If this command fails, follow the steps below to create and set up a new environment.
+#### 🔹Create a New Virtual Environment
+**In your project directory:**
+```
+python3 -m venv tf-gpu-env
+```
+#### 🔹Activate the Virtual Environment
+
+```
+source tf-gpu-env/bin/activate
+```
+####  🔹Install Project Dependencies
+**With the virtual environment active:**
+
+```
+pip install -r requirements.txt
+```
+#### ▶️ Run the test scripts
 ```bash
 python testA.py   # Gender Classification
 python testB.py   # Face Verification
@@ -48,10 +65,10 @@ python testB.py   # Face Verification
 
 ## 2. Download Pretrained Models(No Need to download)
 - **Task A (Gender Classification):**  
-    Download `TASK_A.h5` from [releases:](https://github.com/khushi04-sharma/ComysHackathon5_2025.git/models/TASK_A)
+    Download `TASK_A.h5` from [releases:](https://github.com/khushi04-sharma/ComysHackathon5_2025.git/models)
 
 - **Task B (Face Verification):**  
-    Download `TASK_B.h5` from [releases:](https://github.com/khushi04-sharma/ComysHackathon5_2025.git/models/TASK_B) 
+    Download `TASK_B.h5` from [releases:](https://github.com/khushi04-sharma/ComysHackathon5_2025.git/models) 
 
 ---
 
