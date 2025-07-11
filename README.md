@@ -60,7 +60,7 @@ This image illustrates the detailed architecture of the VGG19 model, including t
 
  ✅ Our trained model with a VGG19 backbone achieved an impressive ~96.85% classification accuracy on the validation/test set for gender classification.
 
-📌 Note: This high accuracy demonstrates the effectiveness  in gender classification tasks, especially when combined with  high-quality and inbalanced datasets.
+ > 📌 Note: This high accuracy demonstrates the effectiveness  in gender classification tasks, especially when combined with  high-quality and inbalanced datasets.
 
 ###  Task B: Face Verification
 - **Objective:** 
