@@ -7,16 +7,9 @@ from tensorflow.keras.preprocessing.image import load_img, img_to_array  # type:
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 print("Preparing Script Just 1 Min...")
 
-'''
-Please put the model named "TASK_B.h5" in the models/ directory.
-The model can be found at the release of this repository 
-https://github.com/Circuit-Overtime/CNN_Facecom_2/releases/tag/publish101
-'''
-
-
 # ======= Configuration =======
 EMBEDDING_MODEL_PATH = "models/TASK_B.h5"
-# TEST_FOLDER = r"E:\CNN_vedic\Data\Task_B\val"
+# You can change this path to evaluate the actual test dataset
 TEST_FOLDER= "Task_B/val"
 IMG_SIZE = (224, 224)
 THRESHOLD = 0.945
