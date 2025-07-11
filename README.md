@@ -65,10 +65,10 @@ python testB.py   # Face Verification
 
 ## 2. Download Pretrained Models(No Need to download)
 - **Task A (Gender Classification):**  
-    Download `TASK_A.h5` from [releases:](https://github.com/khushi04-sharma/ComysHackathon5_2025.git/models)
+    Download `TASK_A.h5` from [releases:](https://github.com/khushi04-sharma/ComysHackathon5_2025/tree/d0bc587758d994bbf9f7205a7f0f4b376b3908e9/models)
 
 - **Task B (Face Verification):**  
-    Download `TASK_B.h5` from [releases:](https://github.com/khushi04-sharma/ComysHackathon5_2025.git/models) 
+    Download `TASK_B.h5` from [releases:](https://github.com/khushi04-sharma/ComysHackathon5_2025/tree/d0bc587758d994bbf9f7205a7f0f4b376b3908e9/models) 
 
 ---
 
