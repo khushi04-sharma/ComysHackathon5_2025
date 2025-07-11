@@ -31,10 +31,10 @@ Train a model to predict gender from faces that generalizes well to non-ideal im
 - Batch-level normalization
 - Oversampling for minority class (female)
  
-### Face Recognition Pipeline Using Transfer Learning (VGG19)
+#### Face Recognition Pipeline Using Transfer Learning (VGG19)
 This diagram outlines the workflow for a face recognition system using transfer learning. It includes stages such as data preparation, preprocessing with augmentation, training with VGG19, hyperparameter tuning, deployment, and model evaluation.
 
-### Architecture of the VGG19 Convolutional Neural Network
+#### Architecture of the VGG19 Convolutional Neural Network
 This image illustrates the detailed architecture of the VGG19 model, including the sequence of convolutional layers, max-pooling operations, fully connected layers (FC1, FC2), and the final softmax classification layer.
 
 ###  Task B: Face Verification
