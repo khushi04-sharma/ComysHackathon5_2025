@@ -9,13 +9,6 @@ from tensorflow.keras.models import load_model #type: ignore
 from tensorflow.keras.applications.vgg19 import preprocess_input #type: ignore
 from tensorflow.keras.preprocessing.image import img_to_array #type: ignore
 
-
-'''
-Please put the model named "TASK_A.h5" in the models/ directory.
-The model can be found at the release of this repository 
-https://github.com/Circuit-Overtime/CNN_Facecom_2/releases/tag/publish102
-'''
-
 print("Preparing Script Just 1 Min...")
 # ========== CONFIG ==========
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
@@ -25,10 +18,10 @@ IMAGE_SIZE = (224, 224)
 CLASS_NAMES = ["Male", "Female"]
 THRESHOLD = 0.45
 SHOW_GRADCAM = False  
-
-# # Hardcoded folders
-# MALE_FOLDER = "Task_A\val\male"
-# FEMALE_FOLDER = "Task_A\val\female"
+# You can change the path to evaluate 
+# Folder paths containing training images 
+# - male samples: Task_A/train/male/
+# - female samples: Task_A/train/female/
 MALE_FOLDER = "Task_A/train/male"
 FEMALE_FOLDER = "Task_A/train/female"
 
