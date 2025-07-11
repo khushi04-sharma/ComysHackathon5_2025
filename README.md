@@ -173,6 +173,21 @@ This image illustrates the detailed architecture of the VGG19 model, including t
 | Recall                   | 0.9684 |
 | F1-Score                 |0.9684  |
 
+#### Evaluation Result 
+
+<div align="center">
+  <div style="display: flex; justify-content: space-between;">
+    <div style="text-align: center; margin: 0 10px;">
+      <img src="https://github.com/khushi04-sharma/ComysHackathon5_2025/blob/47b08c2e8b7c01251166ee28796f7ccd497be519/Image/Vgg19_Training.png" width="400" alt="VGG19 Training Pipeline">
+      <p><strong>VGG19 Training Pipeline</strong></p>
+    </div>
+    <div style="text-align: center; margin: 0 10px;">
+      <img src="https://github.com/khushi04-sharma/ComysHackathon5_2025/blob/47b08c2e8b7c01251166ee28796f7ccd497be519/Image/Vgg19_Fine_Tuning.png" width="400" alt="VGG19 Fine-Tuning Architecture">
+      <p><strong>VGG19 Fine-Tuning Architecture</strong></p>
+    </div>
+  </div>
+</div>
+
 #### Excepted Output
 📁 Found 100 male and 100 female images.(balanced dataset)
 
