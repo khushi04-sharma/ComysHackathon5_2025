@@ -1,0 +1,427 @@
+🔹 Layer: conv1_conv
+   Weight 0 shape: (7, 7, 3, 64)
+   Weight 1 shape: (64,)
+🔹 Layer: conv1_bn
+   Weight 0 shape: (64,)
+   Weight 1 shape: (64,)
+   Weight 2 shape: (64,)
+   Weight 3 shape: (64,)
+🔹 Layer: conv2_block1_1_conv
+   Weight 0 shape: (1, 1, 64, 64)
+   Weight 1 shape: (64,)
+🔹 Layer: conv2_block1_1_bn
+   Weight 0 shape: (64,)
+   Weight 1 shape: (64,)
+   Weight 2 shape: (64,)
+   Weight 3 shape: (64,)
+🔹 Layer: conv2_block1_2_conv
+   Weight 0 shape: (3, 3, 64, 64)
+   Weight 1 shape: (64,)
+🔹 Layer: conv2_block1_2_bn
+   Weight 0 shape: (64,)
+   Weight 1 shape: (64,)
+   Weight 2 shape: (64,)
+   Weight 3 shape: (64,)
+🔹 Layer: conv2_block1_0_conv
+   Weight 0 shape: (1, 1, 64, 256)
+   Weight 1 shape: (256,)
+🔹 Layer: conv2_block1_3_conv
+   Weight 0 shape: (1, 1, 64, 256)
+   Weight 1 shape: (256,)
+🔹 Layer: conv2_block1_0_bn
+   Weight 0 shape: (256,)
+   Weight 1 shape: (256,)
+   Weight 2 shape: (256,)
+   Weight 3 shape: (256,)
+🔹 Layer: conv2_block1_3_bn
+   Weight 0 shape: (256,)
+   Weight 1 shape: (256,)
+   Weight 2 shape: (256,)
+   Weight 3 shape: (256,)
+🔹 Layer: conv2_block2_1_conv
+   Weight 0 shape: (1, 1, 256, 64)
+   Weight 1 shape: (64,)
+🔹 Layer: conv2_block2_1_bn
+   Weight 0 shape: (64,)
+   Weight 1 shape: (64,)
+   Weight 2 shape: (64,)
+   Weight 3 shape: (64,)
+🔹 Layer: conv2_block2_2_conv
+   Weight 0 shape: (3, 3, 64, 64)
+   Weight 1 shape: (64,)
+🔹 Layer: conv2_block2_2_bn
+   Weight 0 shape: (64,)
+   Weight 1 shape: (64,)
+   Weight 2 shape: (64,)
+   Weight 3 shape: (64,)
+🔹 Layer: conv2_block2_3_conv
+   Weight 0 shape: (1, 1, 64, 256)
+   Weight 1 shape: (256,)
+🔹 Layer: conv2_block2_3_bn
+   Weight 0 shape: (256,)
+   Weight 1 shape: (256,)
+   Weight 2 shape: (256,)
+   Weight 3 shape: (256,)
+🔹 Layer: conv2_block3_1_conv
+   Weight 0 shape: (1, 1, 256, 64)
+   Weight 1 shape: (64,)
+🔹 Layer: conv2_block3_1_bn
+   Weight 0 shape: (64,)
+   Weight 1 shape: (64,)
+   Weight 2 shape: (64,)
+   Weight 3 shape: (64,)
+🔹 Layer: conv2_block3_2_conv
+   Weight 0 shape: (3, 3, 64, 64)
+   Weight 1 shape: (64,)
+🔹 Layer: conv2_block3_2_bn
+   Weight 0 shape: (64,)
+   Weight 1 shape: (64,)
+   Weight 2 shape: (64,)
+   Weight 3 shape: (64,)
+🔹 Layer: conv2_block3_3_conv
+   Weight 0 shape: (1, 1, 64, 256)
+   Weight 1 shape: (256,)
+🔹 Layer: conv2_block3_3_bn
+   Weight 0 shape: (256,)
+   Weight 1 shape: (256,)
+   Weight 2 shape: (256,)
+   Weight 3 shape: (256,)
+🔹 Layer: conv3_block1_1_conv
+   Weight 0 shape: (1, 1, 256, 128)
+   Weight 1 shape: (128,)
+🔹 Layer: conv3_block1_1_bn
+   Weight 0 shape: (128,)
+   Weight 1 shape: (128,)
+   Weight 2 shape: (128,)
+   Weight 3 shape: (128,)
+🔹 Layer: conv3_block1_2_conv
+   Weight 0 shape: (3, 3, 128, 128)
+   Weight 1 shape: (128,)
+🔹 Layer: conv3_block1_2_bn
+   Weight 0 shape: (128,)
+   Weight 1 shape: (128,)
+   Weight 2 shape: (128,)
+   Weight 3 shape: (128,)
+🔹 Layer: conv3_block1_0_conv
+   Weight 0 shape: (1, 1, 256, 512)
+   Weight 1 shape: (512,)
+🔹 Layer: conv3_block1_3_conv
+   Weight 0 shape: (1, 1, 128, 512)
+   Weight 1 shape: (512,)
+🔹 Layer: conv3_block1_0_bn
+   Weight 0 shape: (512,)
+   Weight 1 shape: (512,)
+   Weight 2 shape: (512,)
+   Weight 3 shape: (512,)
+🔹 Layer: conv3_block1_3_bn
+   Weight 0 shape: (512,)
+   Weight 1 shape: (512,)
+   Weight 2 shape: (512,)
+   Weight 3 shape: (512,)
+🔹 Layer: conv3_block2_1_conv
+   Weight 0 shape: (1, 1, 512, 128)
+   Weight 1 shape: (128,)
+🔹 Layer: conv3_block2_1_bn
+   Weight 0 shape: (128,)
+   Weight 1 shape: (128,)
+   Weight 2 shape: (128,)
+   Weight 3 shape: (128,)
+🔹 Layer: conv3_block2_2_conv
+   Weight 0 shape: (3, 3, 128, 128)
+   Weight 1 shape: (128,)
+🔹 Layer: conv3_block2_2_bn
+   Weight 0 shape: (128,)
+   Weight 1 shape: (128,)
+   Weight 2 shape: (128,)
+   Weight 3 shape: (128,)
+🔹 Layer: conv3_block2_3_conv
+   Weight 0 shape: (1, 1, 128, 512)
+   Weight 1 shape: (512,)
+🔹 Layer: conv3_block2_3_bn
+   Weight 0 shape: (512,)
+   Weight 1 shape: (512,)
+   Weight 2 shape: (512,)
+   Weight 3 shape: (512,)
+🔹 Layer: conv3_block3_1_conv
+   Weight 0 shape: (1, 1, 512, 128)
+   Weight 1 shape: (128,)
+🔹 Layer: conv3_block3_1_bn
+   Weight 0 shape: (128,)
+   Weight 1 shape: (128,)
+   Weight 2 shape: (128,)
+   Weight 3 shape: (128,)
+🔹 Layer: conv3_block3_2_conv
+   Weight 0 shape: (3, 3, 128, 128)
+   Weight 1 shape: (128,)
+🔹 Layer: conv3_block3_2_bn
+   Weight 0 shape: (128,)
+   Weight 1 shape: (128,)
+   Weight 2 shape: (128,)
+   Weight 3 shape: (128,)
+🔹 Layer: conv3_block3_3_conv
+   Weight 0 shape: (1, 1, 128, 512)
+   Weight 1 shape: (512,)
+🔹 Layer: conv3_block3_3_bn
+   Weight 0 shape: (512,)
+   Weight 1 shape: (512,)
+   Weight 2 shape: (512,)
+   Weight 3 shape: (512,)
+🔹 Layer: conv3_block4_1_conv
+   Weight 0 shape: (1, 1, 512, 128)
+   Weight 1 shape: (128,)
+🔹 Layer: conv3_block4_1_bn
+   Weight 0 shape: (128,)
+   Weight 1 shape: (128,)
+   Weight 2 shape: (128,)
+   Weight 3 shape: (128,)
+🔹 Layer: conv3_block4_2_conv
+   Weight 0 shape: (3, 3, 128, 128)
+   Weight 1 shape: (128,)
+🔹 Layer: conv3_block4_2_bn
+   Weight 0 shape: (128,)
+   Weight 1 shape: (128,)
+   Weight 2 shape: (128,)
+   Weight 3 shape: (128,)
+🔹 Layer: conv3_block4_3_conv
+   Weight 0 shape: (1, 1, 128, 512)
+   Weight 1 shape: (512,)
+🔹 Layer: conv3_block4_3_bn
+   Weight 0 shape: (512,)
+   Weight 1 shape: (512,)
+   Weight 2 shape: (512,)
+   Weight 3 shape: (512,)
+🔹 Layer: conv4_block1_1_conv
+   Weight 0 shape: (1, 1, 512, 256)
+   Weight 1 shape: (256,)
+🔹 Layer: conv4_block1_1_bn
+   Weight 0 shape: (256,)
+   Weight 1 shape: (256,)
+   Weight 2 shape: (256,)
+   Weight 3 shape: (256,)
+🔹 Layer: conv4_block1_2_conv
+   Weight 0 shape: (3, 3, 256, 256)
+   Weight 1 shape: (256,)
+🔹 Layer: conv4_block1_2_bn
+   Weight 0 shape: (256,)
+   Weight 1 shape: (256,)
+   Weight 2 shape: (256,)
+   Weight 3 shape: (256,)
+🔹 Layer: conv4_block1_0_conv
+   Weight 0 shape: (1, 1, 512, 1024)
+   Weight 1 shape: (1024,)
+🔹 Layer: conv4_block1_3_conv
+   Weight 0 shape: (1, 1, 256, 1024)
+   Weight 1 shape: (1024,)
+🔹 Layer: conv4_block1_0_bn
+   Weight 0 shape: (1024,)
+   Weight 1 shape: (1024,)
+   Weight 2 shape: (1024,)
+   Weight 3 shape: (1024,)
+🔹 Layer: conv4_block1_3_bn
+   Weight 0 shape: (1024,)
+   Weight 1 shape: (1024,)
+   Weight 2 shape: (1024,)
+   Weight 3 shape: (1024,)
+🔹 Layer: conv4_block2_1_conv
+   Weight 0 shape: (1, 1, 1024, 256)
+   Weight 1 shape: (256,)
+🔹 Layer: conv4_block2_1_bn
+   Weight 0 shape: (256,)
+   Weight 1 shape: (256,)
+   Weight 2 shape: (256,)
+   Weight 3 shape: (256,)
+🔹 Layer: conv4_block2_2_conv
+   Weight 0 shape: (3, 3, 256, 256)
+   Weight 1 shape: (256,)
+🔹 Layer: conv4_block2_2_bn
+   Weight 0 shape: (256,)
+   Weight 1 shape: (256,)
+   Weight 2 shape: (256,)
+   Weight 3 shape: (256,)
+🔹 Layer: conv4_block2_3_conv
+   Weight 0 shape: (1, 1, 256, 1024)
+   Weight 1 shape: (1024,)
+🔹 Layer: conv4_block2_3_bn
+   Weight 0 shape: (1024,)
+   Weight 1 shape: (1024,)
+   Weight 2 shape: (1024,)
+   Weight 3 shape: (1024,)
+🔹 Layer: conv4_block3_1_conv
+   Weight 0 shape: (1, 1, 1024, 256)
+   Weight 1 shape: (256,)
+🔹 Layer: conv4_block3_1_bn
+   Weight 0 shape: (256,)
+   Weight 1 shape: (256,)
+   Weight 2 shape: (256,)
+   Weight 3 shape: (256,)
+🔹 Layer: conv4_block3_2_conv
+   Weight 0 shape: (3, 3, 256, 256)
+   Weight 1 shape: (256,)
+🔹 Layer: conv4_block3_2_bn
+   Weight 0 shape: (256,)
+   Weight 1 shape: (256,)
+   Weight 2 shape: (256,)
+   Weight 3 shape: (256,)
+🔹 Layer: conv4_block3_3_conv
+   Weight 0 shape: (1, 1, 256, 1024)
+   Weight 1 shape: (1024,)
+🔹 Layer: conv4_block3_3_bn
+   Weight 0 shape: (1024,)
+   Weight 1 shape: (1024,)
+   Weight 2 shape: (1024,)
+   Weight 3 shape: (1024,)
+🔹 Layer: conv4_block4_1_conv
+   Weight 0 shape: (1, 1, 1024, 256)
+   Weight 1 shape: (256,)
+🔹 Layer: conv4_block4_1_bn
+   Weight 0 shape: (256,)
+   Weight 1 shape: (256,)
+   Weight 2 shape: (256,)
+   Weight 3 shape: (256,)
+🔹 Layer: conv4_block4_2_conv
+   Weight 0 shape: (3, 3, 256, 256)
+   Weight 1 shape: (256,)
+🔹 Layer: conv4_block4_2_bn
+   Weight 0 shape: (256,)
+   Weight 1 shape: (256,)
+   Weight 2 shape: (256,)
+   Weight 3 shape: (256,)
+🔹 Layer: conv4_block4_3_conv
+   Weight 0 shape: (1, 1, 256, 1024)
+   Weight 1 shape: (1024,)
+🔹 Layer: conv4_block4_3_bn
+   Weight 0 shape: (1024,)
+   Weight 1 shape: (1024,)
+   Weight 2 shape: (1024,)
+   Weight 3 shape: (1024,)
+🔹 Layer: conv4_block5_1_conv
+   Weight 0 shape: (1, 1, 1024, 256)
+   Weight 1 shape: (256,)
+🔹 Layer: conv4_block5_1_bn
+   Weight 0 shape: (256,)
+   Weight 1 shape: (256,)
+   Weight 2 shape: (256,)
+   Weight 3 shape: (256,)
+🔹 Layer: conv4_block5_2_conv
+   Weight 0 shape: (3, 3, 256, 256)
+   Weight 1 shape: (256,)
+🔹 Layer: conv4_block5_2_bn
+   Weight 0 shape: (256,)
+   Weight 1 shape: (256,)
+   Weight 2 shape: (256,)
+   Weight 3 shape: (256,)
+🔹 Layer: conv4_block5_3_conv
+   Weight 0 shape: (1, 1, 256, 1024)
+   Weight 1 shape: (1024,)
+🔹 Layer: conv4_block5_3_bn
+   Weight 0 shape: (1024,)
+   Weight 1 shape: (1024,)
+   Weight 2 shape: (1024,)
+   Weight 3 shape: (1024,)
+🔹 Layer: conv4_block6_1_conv
+   Weight 0 shape: (1, 1, 1024, 256)
+   Weight 1 shape: (256,)
+🔹 Layer: conv4_block6_1_bn
+   Weight 0 shape: (256,)
+   Weight 1 shape: (256,)
+   Weight 2 shape: (256,)
+   Weight 3 shape: (256,)
+🔹 Layer: conv4_block6_2_conv
+   Weight 0 shape: (3, 3, 256, 256)
+   Weight 1 shape: (256,)
+🔹 Layer: conv4_block6_2_bn
+   Weight 0 shape: (256,)
+   Weight 1 shape: (256,)
+   Weight 2 shape: (256,)
+   Weight 3 shape: (256,)
+🔹 Layer: conv4_block6_3_conv
+   Weight 0 shape: (1, 1, 256, 1024)
+   Weight 1 shape: (1024,)
+🔹 Layer: conv4_block6_3_bn
+   Weight 0 shape: (1024,)
+   Weight 1 shape: (1024,)
+   Weight 2 shape: (1024,)
+   Weight 3 shape: (1024,)
+🔹 Layer: conv5_block1_1_conv
+   Weight 0 shape: (1, 1, 1024, 512)
+   Weight 1 shape: (512,)
+🔹 Layer: conv5_block1_1_bn
+   Weight 0 shape: (512,)
+   Weight 1 shape: (512,)
+   Weight 2 shape: (512,)
+   Weight 3 shape: (512,)
+🔹 Layer: conv5_block1_2_conv
+   Weight 0 shape: (3, 3, 512, 512)
+   Weight 1 shape: (512,)
+🔹 Layer: conv5_block1_2_bn
+   Weight 0 shape: (512,)
+   Weight 1 shape: (512,)
+   Weight 2 shape: (512,)
+   Weight 3 shape: (512,)
+🔹 Layer: conv5_block1_0_conv
+   Weight 0 shape: (1, 1, 1024, 2048)
+   Weight 1 shape: (2048,)
+🔹 Layer: conv5_block1_3_conv
+   Weight 0 shape: (1, 1, 512, 2048)
+   Weight 1 shape: (2048,)
+🔹 Layer: conv5_block1_0_bn
+   Weight 0 shape: (2048,)
+   Weight 1 shape: (2048,)
+   Weight 2 shape: (2048,)
+   Weight 3 shape: (2048,)
+🔹 Layer: conv5_block1_3_bn
+   Weight 0 shape: (2048,)
+   Weight 1 shape: (2048,)
+   Weight 2 shape: (2048,)
+   Weight 3 shape: (2048,)
+🔹 Layer: conv5_block2_1_conv
+   Weight 0 shape: (1, 1, 2048, 512)
+   Weight 1 shape: (512,)
+🔹 Layer: conv5_block2_1_bn
+   Weight 0 shape: (512,)
+   Weight 1 shape: (512,)
+   Weight 2 shape: (512,)
+   Weight 3 shape: (512,)
+🔹 Layer: conv5_block2_2_conv
+   Weight 0 shape: (3, 3, 512, 512)
+   Weight 1 shape: (512,)
+🔹 Layer: conv5_block2_2_bn
+   Weight 0 shape: (512,)
+   Weight 1 shape: (512,)
+   Weight 2 shape: (512,)
+   Weight 3 shape: (512,)
+🔹 Layer: conv5_block2_3_conv
+   Weight 0 shape: (1, 1, 512, 2048)
+   Weight 1 shape: (2048,)
+🔹 Layer: conv5_block2_3_bn
+   Weight 0 shape: (2048,)
+   Weight 1 shape: (2048,)
+   Weight 2 shape: (2048,)
+   Weight 3 shape: (2048,)
+🔹 Layer: conv5_block3_1_conv
+   Weight 0 shape: (1, 1, 2048, 512)
+   Weight 1 shape: (512,)
+🔹 Layer: conv5_block3_1_bn
+   Weight 0 shape: (512,)
+   Weight 1 shape: (512,)
+   Weight 2 shape: (512,)
+   Weight 3 shape: (512,)
+🔹 Layer: conv5_block3_2_conv
+   Weight 0 shape: (3, 3, 512, 512)
+   Weight 1 shape: (512,)
+🔹 Layer: conv5_block3_2_bn
+   Weight 0 shape: (512,)
+   Weight 1 shape: (512,)
+   Weight 2 shape: (512,)
+   Weight 3 shape: (512,)
+🔹 Layer: conv5_block3_3_conv
+   Weight 0 shape: (1, 1, 512, 2048)
+   Weight 1 shape: (2048,)
+🔹 Layer: conv5_block3_3_bn
+   Weight 0 shape: (2048,)
+   Weight 1 shape: (2048,)
+   Weight 2 shape: (2048,)
+   Weight 3 shape: (2048,)
+🔹 Layer: dense
+   Weight 0 shape: (2048, 256)
+   Weight 1 shape: (256,)

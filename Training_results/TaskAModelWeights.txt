@@ -1,0 +1,62 @@
+🔹 Layer: block1_conv1
+   Weight 0 shape: (3, 3, 3, 64)
+   Weight 1 shape: (64,)
+🔹 Layer: block1_conv2
+   Weight 0 shape: (3, 3, 64, 64)
+   Weight 1 shape: (64,)
+🔹 Layer: block2_conv1
+   Weight 0 shape: (3, 3, 64, 128)
+   Weight 1 shape: (128,)
+🔹 Layer: block2_conv2
+   Weight 0 shape: (3, 3, 128, 128)
+   Weight 1 shape: (128,)
+🔹 Layer: block3_conv1
+   Weight 0 shape: (3, 3, 128, 256)
+   Weight 1 shape: (256,)
+🔹 Layer: block3_conv2
+   Weight 0 shape: (3, 3, 256, 256)
+   Weight 1 shape: (256,)
+🔹 Layer: block3_conv3
+   Weight 0 shape: (3, 3, 256, 256)
+   Weight 1 shape: (256,)
+🔹 Layer: block3_conv4
+   Weight 0 shape: (3, 3, 256, 256)
+   Weight 1 shape: (256,)
+🔹 Layer: block4_conv1
+   Weight 0 shape: (3, 3, 256, 512)
+   Weight 1 shape: (512,)
+🔹 Layer: block4_conv2
+   Weight 0 shape: (3, 3, 512, 512)
+   Weight 1 shape: (512,)
+🔹 Layer: block4_conv3
+   Weight 0 shape: (3, 3, 512, 512)
+   Weight 1 shape: (512,)
+🔹 Layer: block4_conv4
+   Weight 0 shape: (3, 3, 512, 512)
+   Weight 1 shape: (512,)
+🔹 Layer: block5_conv1
+   Weight 0 shape: (3, 3, 512, 512)
+   Weight 1 shape: (512,)
+🔹 Layer: block5_conv2
+   Weight 0 shape: (3, 3, 512, 512)
+   Weight 1 shape: (512,)
+🔹 Layer: block5_conv3
+   Weight 0 shape: (3, 3, 512, 512)
+   Weight 1 shape: (512,)
+🔹 Layer: block5_conv4
+   Weight 0 shape: (3, 3, 512, 512)
+   Weight 1 shape: (512,)
+🔹 Layer: batch_normalization
+   Weight 0 shape: (512,)
+   Weight 1 shape: (512,)
+   Weight 2 shape: (512,)
+   Weight 3 shape: (512,)
+🔹 Layer: dense
+   Weight 0 shape: (512, 512)
+   Weight 1 shape: (512,)
+🔹 Layer: dense_1
+   Weight 0 shape: (512, 256)
+   Weight 1 shape: (256,)
+🔹 Layer: dense_2
+   Weight 0 shape: (256, 2)
+   Weight 1 shape: (2,)

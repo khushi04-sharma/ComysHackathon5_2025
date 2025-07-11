@@ -1,0 +1,252 @@
+📥 Loading data...
+📊 Class Weights: {0: 0.9986945169712794, 1: 1.0013089005235603}
+🚀 Training...
+Epoch 1/100
+95/95 [==============================] - ETA: 0s - loss: 0.1233 - accuracy: 0.7619
+Epoch 1: val_accuracy improved from -inf to 0.87697, saving model to PRODUCTION/models\vgg19_train1.h5
+95/95 [==============================] - 121s 1s/step - loss: 0.1233 - accuracy: 0.7619 - val_loss: 0.0680 - val_accuracy: 0.8770 - lr: 1.0000e-04
+Epoch 2/100
+95/95 [==============================] - ETA: 0s - loss: 0.0747 - accuracy: 0.8468
+Epoch 2: val_accuracy improved from 0.87697 to 0.89748, saving model to PRODUCTION/models\vgg19_train1.h5
+95/95 [==============================] - 113s 1s/step - loss: 0.0747 - accuracy: 0.8468 - val_loss: 0.0570 - val_accuracy: 0.8975 - lr: 1.0000e-04
+Epoch 3/100
+95/95 [==============================] - ETA: 0s - loss: 0.0627 - accuracy: 0.8722
+Epoch 3: val_accuracy improved from 0.89748 to 0.90694, saving model to PRODUCTION/models\vgg19_train1.h5
+95/95 [==============================] - 112s 1s/step - loss: 0.0627 - accuracy: 0.8722 - val_loss: 0.0505 - val_accuracy: 0.9069 - lr: 1.0000e-04
+Epoch 4/100
+95/95 [==============================] - ETA: 0s - loss: 0.0565 - accuracy: 0.8762
+Epoch 4: val_accuracy improved from 0.90694 to 0.91167, saving model to PRODUCTION/models\vgg19_train1.h5
+95/95 [==============================] - 111s 1s/step - loss: 0.0565 - accuracy: 0.8762 - val_loss: 0.0441 - val_accuracy: 0.9117 - lr: 1.0000e-04
+Epoch 5/100
+95/95 [==============================] - ETA: 0s - loss: 0.0474 - accuracy: 0.8904
+Epoch 5: val_accuracy improved from 0.91167 to 0.91798, saving model to PRODUCTION/models\vgg19_train1.h5
+95/95 [==============================] - 116s 1s/step - loss: 0.0474 - accuracy: 0.8904 - val_loss: 0.0380 - val_accuracy: 0.9180 - lr: 1.0000e-04
+Epoch 6/100
+95/95 [==============================] - ETA: 0s - loss: 0.0427 - accuracy: 0.9022
+Epoch 6: val_accuracy did not improve from 0.91798
+95/95 [==============================] - 117s 1s/step - loss: 0.0427 - accuracy: 0.9022 - val_loss: 0.0396 - val_accuracy: 0.9164 - lr: 1.0000e-04
+Epoch 7/100
+95/95 [==============================] - ETA: 0s - loss: 0.0376 - accuracy: 0.9029
+Epoch 7: val_accuracy did not improve from 0.91798
+95/95 [==============================] - 117s 1s/step - loss: 0.0376 - accuracy: 0.9029 - val_loss: 0.0393 - val_accuracy: 0.9180 - lr: 1.0000e-04
+Epoch 8/100
+95/95 [==============================] - ETA: 0s - loss: 0.0399 - accuracy: 0.9036
+Epoch 8: val_accuracy improved from 0.91798 to 0.92429, saving model to PRODUCTION/models\vgg19_train1.h5
+95/95 [==============================] - 120s 1s/step - loss: 0.0399 - accuracy: 0.9036 - val_loss: 0.0374 - val_accuracy: 0.9243 - lr: 1.0000e-04
+Epoch 9/100
+95/95 [==============================] - ETA: 0s - loss: 0.0361 - accuracy: 0.9105
+Epoch 9: val_accuracy did not improve from 0.92429
+95/95 [==============================] - 152s 2s/step - loss: 0.0361 - accuracy: 0.9105 - val_loss: 0.0314 - val_accuracy: 0.9243 - lr: 1.0000e-04
+Epoch 10/100
+95/95 [==============================] - ETA: 0s - loss: 0.0353 - accuracy: 0.9079
+Epoch 10: val_accuracy improved from 0.92429 to 0.92744, saving model to PRODUCTION/models\vgg19_train1.h5
+95/95 [==============================] - 191s 2s/step - loss: 0.0353 - accuracy: 0.9079 - val_loss: 0.0306 - val_accuracy: 0.9274 - lr: 1.0000e-04
+Epoch 11/100
+95/95 [==============================] - ETA: 0s - loss: 0.0363 - accuracy: 0.9092
+Epoch 11: val_accuracy did not improve from 0.92744
+95/95 [==============================] - 187s 2s/step - loss: 0.0363 - accuracy: 0.9092 - val_loss: 0.0329 - val_accuracy: 0.9196 - lr: 1.0000e-04
+Epoch 12/100
+95/95 [==============================] - ETA: 0s - loss: 0.0317 - accuracy: 0.9191
+Epoch 12: val_accuracy did not improve from 0.92744
+95/95 [==============================] - 194s 2s/step - loss: 0.0317 - accuracy: 0.9191 - val_loss: 0.0295 - val_accuracy: 0.9243 - lr: 1.0000e-04
+Epoch 13/100
+95/95 [==============================] - ETA: 0s - loss: 0.0305 - accuracy: 0.9237
+Epoch 13: val_accuracy improved from 0.92744 to 0.92902, saving model to PRODUCTION/models\vgg19_train1.h5
+95/95 [==============================] - 190s 2s/step - loss: 0.0305 - accuracy: 0.9237 - val_loss: 0.0284 - val_accuracy: 0.9290 - lr: 1.0000e-04
+Epoch 14/100
+95/95 [==============================] - ETA: 0s - loss: 0.0288 - accuracy: 0.9264
+Epoch 14: val_accuracy improved from 0.92902 to 0.93218, saving model to PRODUCTION/models\vgg19_train1.h5
+95/95 [==============================] - 187s 2s/step - loss: 0.0288 - accuracy: 0.9264 - val_loss: 0.0281 - val_accuracy: 0.9322 - lr: 1.0000e-04
+Epoch 15/100
+95/95 [==============================] - ETA: 0s - loss: 0.0277 - accuracy: 0.9217
+Epoch 15: val_accuracy did not improve from 0.93218
+95/95 [==============================] - 206s 2s/step - loss: 0.0277 - accuracy: 0.9217 - val_loss: 0.0282 - val_accuracy: 0.9306 - lr: 1.0000e-04
+Epoch 16/100
+95/95 [==============================] - ETA: 0s - loss: 0.0269 - accuracy: 0.9290
+Epoch 16: val_accuracy improved from 0.93218 to 0.93375, saving model to PRODUCTION/models\vgg19_train1.h5
+95/95 [==============================] - 406s 4s/step - loss: 0.0269 - accuracy: 0.9290 - val_loss: 0.0267 - val_accuracy: 0.9338 - lr: 1.0000e-04
+Epoch 17/100
+95/95 [==============================] - ETA: 0s - loss: 0.0253 - accuracy: 0.9221
+Epoch 17: val_accuracy improved from 0.93375 to 0.93533, saving model to PRODUCTION/models\vgg19_train1.h5
+95/95 [==============================] - 402s 4s/step - loss: 0.0253 - accuracy: 0.9221 - val_loss: 0.0262 - val_accuracy: 0.9353 - lr: 1.0000e-04
+Epoch 18/100
+95/95 [==============================] - ETA: 0s - loss: 0.0243 - accuracy: 0.9270
+Epoch 18: val_accuracy did not improve from 0.93533
+95/95 [==============================] - 110s 1s/step - loss: 0.0243 - accuracy: 0.9270 - val_loss: 0.0261 - val_accuracy: 0.9306 - lr: 1.0000e-04
+Epoch 19/100
+95/95 [==============================] - ETA: 0s - loss: 0.0233 - accuracy: 0.9369
+Epoch 19: val_accuracy improved from 0.93533 to 0.93691, saving model to PRODUCTION/models\vgg19_train1.h5
+95/95 [==============================] - 111s 1s/step - loss: 0.0233 - accuracy: 0.9369 - val_loss: 0.0248 - val_accuracy: 0.9369 - lr: 1.0000e-04
+Epoch 20/100
+95/95 [==============================] - ETA: 0s - loss: 0.0230 - accuracy: 0.9326
+Epoch 20: val_accuracy did not improve from 0.93691
+95/95 [==============================] - 128s 1s/step - loss: 0.0230 - accuracy: 0.9326 - val_loss: 0.0255 - val_accuracy: 0.9306 - lr: 1.0000e-04
+Epoch 21/100
+95/95 [==============================] - ETA: 0s - loss: 0.0232 - accuracy: 0.9316
+Epoch 21: val_accuracy did not improve from 0.93691
+95/95 [==============================] - 110s 1s/step - loss: 0.0232 - accuracy: 0.9316 - val_loss: 0.0249 - val_accuracy: 0.9290 - lr: 1.0000e-04
+Epoch 22/100
+95/95 [==============================] - ETA: 0s - loss: 0.0244 - accuracy: 0.9306
+Epoch 22: val_accuracy did not improve from 0.93691
+95/95 [==============================] - 110s 1s/step - loss: 0.0244 - accuracy: 0.9306 - val_loss: 0.0270 - val_accuracy: 0.9243 - lr: 1.0000e-04
+Epoch 23/100
+95/95 [==============================] - ETA: 0s - loss: 0.0204 - accuracy: 0.9373
+Epoch 23: val_accuracy did not improve from 0.93691
+95/95 [==============================] - 110s 1s/step - loss: 0.0204 - accuracy: 0.9373 - val_loss: 0.0249 - val_accuracy: 0.9306 - lr: 1.0000e-04
+Epoch 24/100
+95/95 [==============================] - ETA: 0s - loss: 0.0214 - accuracy: 0.9373
+Epoch 24: val_accuracy did not improve from 0.93691
+95/95 [==============================] - 110s 1s/step - loss: 0.0214 - accuracy: 0.9373 - val_loss: 0.0241 - val_accuracy: 0.9290 - lr: 1.0000e-04
+Epoch 25/100
+95/95 [==============================] - ETA: 0s - loss: 0.0199 - accuracy: 0.9429
+Epoch 25: val_accuracy did not improve from 0.93691
+95/95 [==============================] - 110s 1s/step - loss: 0.0199 - accuracy: 0.9429 - val_loss: 0.0237 - val_accuracy: 0.9322 - lr: 1.0000e-04
+Epoch 26/100
+95/95 [==============================] - ETA: 0s - loss: 0.0212 - accuracy: 0.9396
+Epoch 26: val_accuracy did not improve from 0.93691
+95/95 [==============================] - 110s 1s/step - loss: 0.0212 - accuracy: 0.9396 - val_loss: 0.0240 - val_accuracy: 0.9290 - lr: 1.0000e-04
+Epoch 27/100
+95/95 [==============================] - ETA: 0s - loss: 0.0205 - accuracy: 0.9462
+Epoch 27: val_accuracy did not improve from 0.93691
+95/95 [==============================] - 108s 1s/step - loss: 0.0205 - accuracy: 0.9462 - val_loss: 0.0245 - val_accuracy: 0.9338 - lr: 1.0000e-04
+Epoch 28/100
+95/95 [==============================] - ETA: 0s - loss: 0.0195 - accuracy: 0.9422
+Epoch 28: val_accuracy did not improve from 0.93691
+95/95 [==============================] - 109s 1s/step - loss: 0.0195 - accuracy: 0.9422 - val_loss: 0.0239 - val_accuracy: 0.9306 - lr: 1.0000e-04
+Epoch 29/100
+95/95 [==============================] - ETA: 0s - loss: 0.0193 - accuracy: 0.9439
+Epoch 29: val_accuracy did not improve from 0.93691
+95/95 [==============================] - 110s 1s/step - loss: 0.0193 - accuracy: 0.9439 - val_loss: 0.0238 - val_accuracy: 0.9306 - lr: 1.0000e-04
+Epoch 30/100
+95/95 [==============================] - ETA: 0s - loss: 0.0181 - accuracy: 0.9475
+Epoch 30: ReduceLROnPlateau reducing learning rate to 9.999999747378752e-06.
+
+Epoch 30: val_accuracy did not improve from 0.93691
+95/95 [==============================] - 111s 1s/step - loss: 0.0181 - accuracy: 0.9475 - val_loss: 0.0241 - val_accuracy: 0.9322 - lr: 1.0000e-04
+Epoch 31/100
+95/95 [==============================] - ETA: 0s - loss: 0.0180 - accuracy: 0.9491
+Epoch 31: val_accuracy did not improve from 0.93691
+95/95 [==============================] - 109s 1s/step - loss: 0.0180 - accuracy: 0.9491 - val_loss: 0.0244 - val_accuracy: 0.9322 - lr: 1.0000e-05
+Epoch 32/100
+95/95 [==============================] - ETA: 0s - loss: 0.0181 - accuracy: 0.9402
+Epoch 32: val_accuracy did not improve from 0.93691
+95/95 [==============================] - 110s 1s/step - loss: 0.0181 - accuracy: 0.9402 - val_loss: 0.0242 - val_accuracy: 0.9322 - lr: 1.0000e-05
+Epoch 33/100
+95/95 [==============================] - ETA: 0s - loss: 0.0173 - accuracy: 0.9515
+Epoch 33: val_accuracy did not improve from 0.93691
+95/95 [==============================] - 110s 1s/step - loss: 0.0173 - accuracy: 0.9515 - val_loss: 0.0244 - val_accuracy: 0.9322 - lr: 1.0000e-05
+Epoch 34/100
+95/95 [==============================] - ETA: 0s - loss: 0.0189 - accuracy: 0.9392
+Epoch 34: val_accuracy did not improve from 0.93691
+95/95 [==============================] - 110s 1s/step - loss: 0.0189 - accuracy: 0.9392 - val_loss: 0.0245 - val_accuracy: 0.9338 - lr: 1.0000e-05
+Epoch 35/100
+95/95 [==============================] - ETA: 0s - loss: 0.0163 - accuracy: 0.9528Restoring model weights from the end of the best epoch: 25.
+
+Epoch 35: ReduceLROnPlateau reducing learning rate to 1e-06.
+
+Epoch 35: val_accuracy did not improve from 0.93691
+95/95 [==============================] - 110s 1s/step - loss: 0.0163 - accuracy: 0.9528 - val_loss: 0.0246 - val_accuracy: 0.9306 - lr: 1.0000e-05
+Epoch 35: early stopping
+🔧 Fine-tuning...
+Epoch 1/30
+95/95 [==============================] - ETA: 0s - loss: 0.0184 - accuracy: 0.9435
+Epoch 1: val_accuracy did not improve from 0.93691
+95/95 [==============================] - 119s 1s/step - loss: 0.0184 - accuracy: 0.9435 - val_loss: 0.0222 - val_accuracy: 0.9369 - lr: 1.0000e-05
+Epoch 2/30
+95/95 [==============================] - ETA: 0s - loss: 0.0146 - accuracy: 0.9587
+Epoch 2: val_accuracy improved from 0.93691 to 0.93849, saving model to PRODUCTION/models\vgg19_train1.h5
+95/95 [==============================] - 111s 1s/step - loss: 0.0146 - accuracy: 0.9587 - val_loss: 0.0223 - val_accuracy: 0.9385 - lr: 1.0000e-05
+Epoch 3/30
+95/95 [==============================] - ETA: 0s - loss: 0.0126 - accuracy: 0.9620
+Epoch 3: val_accuracy improved from 0.93849 to 0.95110, saving model to PRODUCTION/models\vgg19_train1.h5
+95/95 [==============================] - 112s 1s/step - loss: 0.0126 - accuracy: 0.9620 - val_loss: 0.0163 - val_accuracy: 0.9511 - lr: 1.0000e-05
+Epoch 4/30
+95/95 [==============================] - ETA: 0s - loss: 0.0123 - accuracy: 0.9663
+Epoch 4: val_accuracy improved from 0.95110 to 0.95268, saving model to PRODUCTION/models\vgg19_train1.h5
+95/95 [==============================] - 110s 1s/step - loss: 0.0123 - accuracy: 0.9663 - val_loss: 0.0183 - val_accuracy: 0.9527 - lr: 1.0000e-05
+Epoch 5/30
+95/95 [==============================] - ETA: 0s - loss: 0.0097 - accuracy: 0.9673
+Epoch 5: val_accuracy did not improve from 0.95268
+95/95 [==============================] - 110s 1s/step - loss: 0.0097 - accuracy: 0.9673 - val_loss: 0.0168 - val_accuracy: 0.9511 - lr: 1.0000e-05
+Epoch 6/30
+95/95 [==============================] - ETA: 0s - loss: 0.0081 - accuracy: 0.9782
+Epoch 6: val_accuracy improved from 0.95268 to 0.95899, saving model to PRODUCTION/models\vgg19_train1.h5
+95/95 [==============================] - 111s 1s/step - loss: 0.0081 - accuracy: 0.9782 - val_loss: 0.0134 - val_accuracy: 0.9590 - lr: 1.0000e-05
+Epoch 7/30
+95/95 [==============================] - ETA: 0s - loss: 0.0072 - accuracy: 0.9785
+Epoch 7: val_accuracy improved from 0.95899 to 0.96057, saving model to PRODUCTION/models\vgg19_train1.h5
+95/95 [==============================] - 111s 1s/step - loss: 0.0072 - accuracy: 0.9785 - val_loss: 0.0127 - val_accuracy: 0.9606 - lr: 1.0000e-05
+Epoch 8/30
+95/95 [==============================] - ETA: 0s - loss: 0.0060 - accuracy: 0.9858
+Epoch 8: val_accuracy did not improve from 0.96057
+95/95 [==============================] - 110s 1s/step - loss: 0.0060 - accuracy: 0.9858 - val_loss: 0.0186 - val_accuracy: 0.9527 - lr: 1.0000e-05
+Epoch 9/30
+95/95 [==============================] - ETA: 0s - loss: 0.0045 - accuracy: 0.9858
+Epoch 9: val_accuracy improved from 0.96057 to 0.96688, saving model to PRODUCTION/models\vgg19_train1.h5
+95/95 [==============================] - 111s 1s/step - loss: 0.0045 - accuracy: 0.9858 - val_loss: 0.0134 - val_accuracy: 0.9669 - lr: 1.0000e-05
+Epoch 10/30
+95/95 [==============================] - ETA: 0s - loss: 0.0045 - accuracy: 0.9858
+Epoch 10: val_accuracy did not improve from 0.96688
+95/95 [==============================] - 110s 1s/step - loss: 0.0045 - accuracy: 0.9858 - val_loss: 0.0164 - val_accuracy: 0.9606 - lr: 1.0000e-05
+Epoch 11/30
+95/95 [==============================] - ETA: 0s - loss: 0.0048 - accuracy: 0.9868
+Epoch 11: val_accuracy did not improve from 0.96688
+95/95 [==============================] - 110s 1s/step - loss: 0.0048 - accuracy: 0.9868 - val_loss: 0.0159 - val_accuracy: 0.9621 - lr: 1.0000e-05
+Epoch 12/30
+95/95 [==============================] - ETA: 0s - loss: 0.0050 - accuracy: 0.9888
+Epoch 12: ReduceLROnPlateau reducing learning rate to 1e-06.
+
+Epoch 12: val_accuracy did not improve from 0.96688
+95/95 [==============================] - 110s 1s/step - loss: 0.0050 - accuracy: 0.9888 - val_loss: 0.0195 - val_accuracy: 0.9606 - lr: 1.0000e-05
+Epoch 13/30
+95/95 [==============================] - ETA: 0s - loss: 0.0039 - accuracy: 0.9888
+Epoch 13: val_accuracy did not improve from 0.96688
+95/95 [==============================] - 110s 1s/step - loss: 0.0039 - accuracy: 0.9888 - val_loss: 0.0157 - val_accuracy: 0.9637 - lr: 1.0000e-06
+Epoch 14/30
+95/95 [==============================] - ETA: 0s - loss: 0.0036 - accuracy: 0.9908
+Epoch 14: val_accuracy did not improve from 0.96688
+95/95 [==============================] - 110s 1s/step - loss: 0.0036 - accuracy: 0.9908 - val_loss: 0.0163 - val_accuracy: 0.9637 - lr: 1.0000e-06
+Epoch 15/30
+95/95 [==============================] - ETA: 0s - loss: 0.0028 - accuracy: 0.9921
+Epoch 15: val_accuracy did not improve from 0.96688
+95/95 [==============================] - 112s 1s/step - loss: 0.0028 - accuracy: 0.9921 - val_loss: 0.0164 - val_accuracy: 0.9637 - lr: 1.0000e-06
+Epoch 16/30
+95/95 [==============================] - ETA: 0s - loss: 0.0028 - accuracy: 0.9924
+Epoch 16: val_accuracy did not improve from 0.96688
+95/95 [==============================] - 110s 1s/step - loss: 0.0028 - accuracy: 0.9924 - val_loss: 0.0161 - val_accuracy: 0.9637 - lr: 1.0000e-06
+Epoch 17/30
+95/95 [==============================] - ETA: 0s - loss: 0.0033 - accuracy: 0.9924Restoring model weights from the end of the best epoch: 7.
+
+Epoch 17: val_accuracy did not improve from 0.96688
+95/95 [==============================] - 110s 1s/step - loss: 0.0033 - accuracy: 0.9924 - val_loss: 0.0156 - val_accuracy: 0.9637 - lr: 1.0000e-06
+Epoch 17: early stopping
+
+📊 Final evaluation on training data...
+✅ Training Accuracy: 0.9944
+🎯 Training Precision: 0.9903
+📈 Training Recall: 0.9987
+🧠 Training F1 Score: 0.9945
+
+📊 Final evaluation on validation data...
+20/20 [==============================] - 6s 209ms/step
+🔍 Best Threshold: 0.40 | F1 Score: 0.9684
+📋 Classification Report:
+              precision    recall  f1-score   support
+
+        Male       0.97      0.97      0.97       317
+      Female       0.97      0.97      0.97       317
+
+    accuracy                           0.97       634
+   macro avg       0.97      0.97      0.97       634
+weighted avg       0.97      0.97      0.97       634
+
+🧮 Confusion Matrix:
+[[308   9]
+ [ 11 306]]
+✅ Overall Accuracy: 0.9685
+🎯 Precision: 0.9714
+📈 Recall: 0.9653
+🧠 F1 Score: 0.9684
+♂️ Male Accuracy: 0.9716
+♀️ Female Accuracy: 0.9653
+✅ Final model saved as models/vgg19_final_epoch.h5
