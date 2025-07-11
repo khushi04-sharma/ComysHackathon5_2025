@@ -17,7 +17,7 @@ The easiest way to run the models is by using 3.10 virtual environment (tf-gpu-e
 - Internet connection ≥ **22 Mbps** (see time note below)
 - GPU drivers installed:
   - NVIDIA Driver (≥ R515+)
-  - NVIDIA Container Toolkit (for GPU access inside Docker)
+  
 
 
 ### ⚡ Setup Steps
@@ -46,7 +46,7 @@ python testB.py   # Face Verification
 ---
 
 
-## 2. Download Pretrained Models
+## 2. Download Pretrained Models(No Need to download)
 - **Task A (Gender Classification):**  
     Download `TASK_A.h5` from [releases:](https://github.com/khushi04-sharma/ComysHackathon5_2025.git/models/TASK_A)
 
@@ -55,16 +55,16 @@ python testB.py   # Face Verification
 
 ---
 
-## 3. Prepare Data
+## 3. Prepare Data( To give path for test in testA.py and testB.py)
 
 - **Task A:**  
     - Place validation/test images in:
-        - `Comys_Hackathon5\Task_A\val\male\`
-        - `Comys_Hackathon5\Task_A\val\female\`
+        - `Task_A/val/male`
+        - `Task_A/val/female`
 
 - **Task B:**  
     - Place validation/test folders in:
-        - `Comys_Hackathon5\Task_B\val\`
+        - `Task_B/val`
     - Each identity folder should contain one or many reference image and a `distortion/` subfolder with distorted images.
 
 ---
@@ -91,8 +91,8 @@ python testB.py
 
 ### Output:
 
-**On Run test_A.py**
-## Testing Results on Val dataset
+**On Run test_A.py**<br>
+**Testing Results on Val dataset**
 
 <div align="center">
   <table>
@@ -112,7 +112,9 @@ python testB.py
 </div>
 
 **On Run test_B.py**
-[Testing Results on Val dataset]
+
+[Testing Results on Val dataset](https://github.com/khushi04-sharma/ComysHackathon5_2025/blob/c58bea43ebe005b669e12809d00a75aa198abf34/Task_B_result.txt)
+
 ---  
 
 ##  Challenge Overview 
