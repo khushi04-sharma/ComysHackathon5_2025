@@ -58,6 +58,7 @@ This image illustrates the detailed architecture of the VGG19 model, including t
 <div align="center">
   <img src="https://github.com/khushi04-sharma/ComysHackathon5_2025/blob/47b08c2e8b7c01251166ee28796f7ccd497be519/Image/Screenshot%202025-07-11%20134525.png" alt="Distance Formula" width="400" style="max-width:50%; height:auto;"/>
 </div>
+
 #### 🧠VGG19 Fine-Tuning
 - Leverages ImageNet-pre-trained VGG19 backbone
 - Custom classification head optimized for gender prediction
