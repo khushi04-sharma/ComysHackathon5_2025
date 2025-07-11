@@ -155,7 +155,7 @@ The standard triplet loss with a margin α:
 ### 🛠 Core Architecture
 The twin networks (CNNs) encode input face images into high-dimensional embedding vectors using a shared backbone.These embeddings are then compared using Euclidean distance to determine similarity:
 <div align="center">
-  <img src="tripetlossfullimage.png" alt="Distance Formula"/>
+  <img src="https://github.com/khushi04-sharma/ComysHackathon5_2025/blob/626e7c8bec6dfdb052d9304e20aa5df6a9cdc4a5/Image/tripetlossfullimage.png" alt="Distance Formula"/>
   <p>Metric learning with Triplet Loss: Embeddings from shared-weight CNNs are adjusted to cluster similar (anchor/positive) and separate dissimilar (anchor/negative) samples</p>
   
 </div>
