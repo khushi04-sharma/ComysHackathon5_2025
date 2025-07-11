@@ -18,23 +18,25 @@ dataset/
 - **Model Goal:** 
 Train a model to predict gender from faces that generalizes well to non-ideal images—low light, motion blur, or weather effects (binary Classifier).
 ---
+#### 🧠VGG19 Fine-Tuning
+- Leverages ImageNet-pre-trained VGG19 backbone
+- Custom classification head optimized for gender prediction
+- Layer-wise learning rate adaptation
+#### 🎯 Dynamic Threshold Optimization
+- Auto-tunes decision threshold to maximize F1 score
+- Validation-set driven optimization
+- Threshold range: 0.3-0.7 with 0.01 increments
+#### ⚖️ Class Balancing
+- WeightedRandomSampler with inverse class frequency
+- Batch-level normalization
+- Oversampling for minority class (female)
+ 
+### Face Recognition Pipeline Using Transfer Learning (VGG19)
+This diagram outlines the workflow for a face recognition system using transfer learning. It includes stages such as data preparation, preprocessing with augmentation, training with VGG19, hyperparameter tuning, deployment, and model evaluation.
 
-### Robust Deep Learning Architecture
-- VGG19 Fine-Tuning: Utilizes transfer learning from ImageNet-pre-trained VGG19 model<br>
-- Advanced Loss Function: Implements focal loss to handle class imbalance (γ=2, α=0.75)<br>
-- Dynamic Thresholding: Automatically optimizes decision thresholds for maximum F1 score<br>
+### Architecture of the VGG19 Convolutional Neural Network
+This image illustrates the detailed architecture of the VGG19 model, including the sequence of convolutional layers, max-pooling operations, fully connected layers (FC1, FC2), and the final softmax classification layer.
 
-### Enhanced Training Methodology
--Comprehensive Data Augmentation:<br>
--Lighting variations (brightness/contrast adjustments)<br>
--Geometric transformations (rotations, flips)<br>
--Noise injection (Gaussian, speckle)<br>
--Class Balancing: Implements weighted sampling to ensure equal representation<br>
-
-### Model Interpretability
-- Grad-CAM Integration: Visualizes facial regions driving predictions<br>
-- Confidence Metrics: Provides probability estimates for each prediction<br>
-- Performance Visualization: Generates ROC curves and confusion matrices content will be this one<br>
 ###  Task B: Face Verification
 - **Objective:** 
     Build a **face verification system** that reliably matches distorted face images to their correct identities using metric learning, without relying on traditional classification approaches.
