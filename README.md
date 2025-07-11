@@ -74,7 +74,7 @@ python testB.py   # Face Verification
 ### Task A: Gender Classification
 
 ```bash
-python TEST_A.py
+python testA.py
 ```
 
 - Evaluates all images in the male and female folders.
@@ -83,12 +83,17 @@ python TEST_A.py
 ### Task B: Face Verification
 
 ```bash
-python TEST_B.py
+python testB.py
 ```
 
 - Evaluates face matching for all identities and their distorted images.
 - Prints match results and overall accuracy.
 
+### Output:
+
+**On Run test_A.py**
+
+**On Run test_B.py**
 ---  
 
 ##  Challenge Overview 
