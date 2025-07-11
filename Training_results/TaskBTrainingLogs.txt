@@ -1,7 +1,7 @@
 
 
 Epoch 1/25
-2025-06-25 22:08:13.740412: I tensorflow/stream_executor/cuda/cuda_dnn.cc:384 Loaded cuDNN version 8907
+
 500/500 [==============================] - 806s 2s/step - loss: 0.0225 - val_loss: 0.0213
 Epoch 2/25
 500/500 [==============================] - 703s 1s/step - loss: 0.0138 - val_loss: 0.0140
