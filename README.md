@@ -98,12 +98,12 @@ python testB.py
   <table>
     <tr>
       <td align="center">
-        <img src="https://github.com/khushi04-sharma/ComysHackathon5_2025/raw/076ed63835873fcc434a2714824288438081ff53/Screenshot%202025-07-11%20143915.png" width="400" alt="Training Metrics">
+        <img src="https://github.com/khushi04-sharma/ComysHackathon5_2025/raw/076ed63835873fcc434a2714824288438081ff53/Screenshot%202025-07-11%20143915.png" width="600" alt="Training Metrics">
         <br>
         <em>Training Progress Metrics</em>
       </td>
       <td align="center">
-        <img src="https://github.com/khushi04-sharma/ComysHackathon5_2025/raw/076ed63835873fcc434a2714824288438081ff53/Screenshot%202025-07-11%20143953.png" width="400" alt="Validation Results">
+        <img src="https://github.com/khushi04-sharma/ComysHackathon5_2025/raw/076ed63835873fcc434a2714824288438081ff53/Screenshot%202025-07-11%20143953.png" width="600" alt="Validation Results">
         <br>
         <em>Validation Performance</em>
       </td>
