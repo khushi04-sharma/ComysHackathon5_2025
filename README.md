@@ -1,3 +1,24 @@
+# COMSYS-Hackathon-5,2025
+---
+##  Challenge Overview 
+
+### TASK A: GENDER CLASSIFICATION👩‍🦰🧓
+- **Objective:** 
+Develop a robust gender classification model capable of accurately predicting male/female labels from facial images captured under adverse environmental conditions (e.g., low light, shadows, rain, or haze)
+- **Dataset Structure:**
+```
+dataset/
+├── train/
+│     ├── male/ # 1532 images
+│     └── female/ # 394 images
+└── val/
+     ├── male/ # 317 images
+     └── female/ # 105 images
+```
+- **Model Goal:** 
+Train a model to predict gender from faces that generalizes well to non-ideal images—low light, motion blur, or weather effects (binary Classifier).
+---
+
 # COMSYS-Hackathon-5-2025
 ###  Task B: Face Verification
 - **Objective:** 
