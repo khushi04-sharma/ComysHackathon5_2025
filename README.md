@@ -33,9 +33,15 @@ Train a model to predict gender from faces that generalizes well to non-ideal im
  
 #### Face Recognition Pipeline Using Transfer Learning (VGG19)
 This diagram outlines the workflow for a face recognition system using transfer learning. It includes stages such as data preparation, preprocessing with augmentation, training with VGG19, hyperparameter tuning, deployment, and model evaluation.
-
+<div align="center">
+  <img src="https://github.com/khushi04-sharma/Comys_Hackathon5_2025_Task_B/blob/b6ae81fc2e1de9c1ce6573e0a750f06dab7aaa0c/Screenshot%202025-07-02%20012446.png" alt="Distance Formula" width="600" style="max-width:100%; height:auto;"/>
+</div>
+</div>
 #### Architecture of the VGG19 Convolutional Neural Network
 This image illustrates the detailed architecture of the VGG19 model, including the sequence of convolutional layers, max-pooling operations, fully connected layers (FC1, FC2), and the final softmax classification layer.
+<div align="center">
+  <img src="https://github.com/khushi04-sharma/Comys_Hackathon5_2025_Task_B/blob/b6ae81fc2e1de9c1ce6573e0a750f06dab7aaa0c/Screenshot%202025-07-02%20012446.png" alt="Distance Formula" width="600" style="max-width:100%; height:auto;"/>
+</div>
 
 ### 🏆📈  Performance Metrics
 | Metric                   | Value  |
