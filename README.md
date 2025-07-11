@@ -58,9 +58,9 @@ This image illustrates the detailed architecture of the VGG19 model, including t
        macro avg     0.9750    0.9750    0.9750       200
     weighted avg     0.9750    0.9750    0.9750       200
 
-  ✅ Our trained Triplet Network with a ResNet50 backbone achieved an impressive ~97% verification accuracy on the validation/test set.
+ ✅ Our trained model with a VGG19 backbone achieved an impressive ~96.85% classification accuracy on the validation/test set for gender classification.
 
-> 📌 Note: This high accuracy underscores the effectiveness of Triplet Networks in face verification tasks, especially when using embedding-based similarity with well-curated datasets.
+📌 Note: This high accuracy demonstrates the effectiveness  in gender classification tasks, especially when combined with  high-quality and inbalanced datasets.
 
 ###  Task B: Face Verification
 - **Objective:** 
